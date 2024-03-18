@@ -20,7 +20,7 @@ sub vigenere_decrypt {
         }
     }
 
-    return $plaintext;  # Return the decrypted plaintext
+    return $plaintext;  
 }
 
 # Ciphertext to decrypt
@@ -31,5 +31,5 @@ my $keyword = "idonotknow";
 # Decrypt the ciphertext using the provided key
 my $plaintext = vigenere_decrypt($ciphertext, $keyword);
 
-# Print the decrypted plaintext
+
 print "$plaintext\n";
